@@ -1,0 +1,128 @@
+/********** Template CSS **********/
+:root {
+    --primary: #04848F;
+    --secondary: #F67E1F;
+    --light: #F0F6FF;
+    --dark: #000000;
+}
+
+@media only screen and (min-width: 600px)  {
+    .testimoni .box-testimoni .img {
+        width: 130px;
+        height: 130px;
+    }
+
+    .dream-house  .swiper-button-next {
+        right: -20px;
+    }
+
+    .dream-house .swiper-slide-active .box  .project-name {
+        padding: 10px 10px;
+        line-height: 22px;
+    }
+    
+    .dream-house .box .project-name p {
+        font-size: .8rem;
+    }
+
+    .dream-house .box .project-name span {
+        font-size: .8rem;
+    }
+
+}
+
+
+@media only screen and (min-width: 768px)  {
+    #products-flters li {
+        font-size: 14px;
+        margin-right: 10px !important;
+    }
+
+    .dream-house  .swiper-button-next {
+        right: -20px;
+    }
+
+    #popup {
+        width: 560px;
+    }
+
+}
+
+@media only screen and (min-width: 992px)  {
+    .header-product {
+        padding-top: 6rem;
+    }
+
+    .hero-header {
+        padding: 11rem 0 0;
+    }
+
+    .about-neila .desk {
+        margin-top: 4rem;
+    }
+
+    .about .caption h1 {
+        color: var(--primary);
+    }
+
+    #popup {
+        width: 630px;
+    }
+
+    .footer {
+        padding-top: 6rem;
+        padding-bottom: 5rem;
+    }
+   
+}
+
+
+@media only screen and (min-width: 1200px)  {
+    .dream-house  .swiper-button-next {
+        right: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 991px) {
+    .hero-header .social {
+        display: grid;
+        justify-content: center;
+    }
+
+    .hero-header .social .top-social {
+        justify-content: center;
+    }
+
+    .hero-header .wa {
+        display: flex;
+        justify-content: center;
+    }
+     
+    .about-us .logo {
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+
+    .about-us .logo img {
+        max-height: 150px;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .testimoni .swiper-button-next {
+        display: none;
+    }
+    .testimoni .swiper-button-prev {
+        display: none;
+    }
+
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .about-us .img img {
+        width: 100%;
+    }
+}
